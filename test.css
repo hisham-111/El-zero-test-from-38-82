@@ -1,0 +1,1760 @@
+
+ *{
+    /* font-family: 'Cairo', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
+    box-sizing: border-box;
+    } 
+
+/*
+=> All Exercices from web zero school challenges from (38 >> 41)
+*/
+
+/*CIRCLE
+ .paragraph{
+    margin-top: 30px;
+    font-weight:bold;
+    color:black;
+} 
+
+
+div{
+    box-shadow: -5px -5px #523333b8, 5px 5px #6363d4;
+}
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+ div{
+    position:relative;
+    margin-top: 70px;
+    counter-increment: memeber-counter;
+  
+    
+}
+
+ #one{
+width:100px;
+height:100px;
+background-color: #eee;
+margin-bottom: 10px;
+border: 3px solid black;
+border-radius:50%;
+text-align: center;
+}
+#one{
+font-family: 'Cairo', sans-serif;
+float:left;
+margin-left:80px;   
+margin-right:20px;
+
+}
+
+
+#one::before {
+    content: "";
+    position:absolute;
+    clear: both;
+
+    
+  }
+  #one::before{
+    content:counter(memeber-counter);
+    font-weight: bold;
+    color:white;
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    top: -15px;
+    right: 34px;
+    background-color: black;
+    font-size:14px;
+  }
+  
+#two{
+width:100px;
+height:100px;
+background-color: #eee;
+margin-bottom: 5px;
+border: 3px solid black;
+border-radius:50%;
+text-align: center;
+
+}
+#two{
+font-family: 'Cairo', sans-serif;
+float:left;
+margin-left:20px; 
+margin-right:20px;
+
+}
+
+#two::after{
+    content: "";
+    position:absolute;
+    clear: both;
+
+}
+
+#two::after{
+    content: counter(memeber-counter);
+    font-weight: bold;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    top: -15px;
+    right: 34px;
+    background-color: black;
+    font-size:14px;
+}
+
+
+#three{
+width:100px;
+height:100px;
+background-color: #eee; 
+border: 3px solid black;
+border-radius:50%;
+text-align: center;
+
+}
+#three{
+font-family: 'Cairo', sans-serif;
+float:left;
+margin-left:20px;
+
+
+}
+
+#three::after{
+    content: "";
+    position:absolute;
+    clear: both;
+
+}
+
+#three::after{
+    content: counter(memeber-counter);
+    font-weight: bold;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    top: -15px;
+    right: 34px;
+    background-color: black;
+    font-size:14px;
+}  */
+/*SQUARE-RADIUSE
+
+body{
+    width: 400px;
+    height:400px;
+    margin:5% 20%;
+    background-color:white;
+    border:1px solid gray;
+}
+
+.square{
+    float:right;
+    background-color:#edeaea;
+    width:100px;
+    height:100px;
+    margin: 38% 38%;
+    border-radius:9% 50%;
+}
+
+.square{
+    box-shadow: 1px 4px 20px 0px grey inset, -1px -2px 18px 1px grey inset;
+}
+*/
+/*Form
+
+.parent{
+    border: 1px solid black;
+    width:550px;
+    height:300px;
+    margin: 20px auto;
+    position:relative;
+ 
+}
+
+.block{
+    position: relative;
+    background-color: #eedfdf;
+    width: 230px;
+    height: 272px;
+    margin: 14px 17px;
+    float: left;
+    
+}
+.block2{
+    position: relative;
+    background-color: #eedfdf;
+    width: 230px;
+    height: 272px;
+    margin: 14px 15px;
+    float: right;
+}
+    
+
+.square{
+    position: absolute;
+    background: #629ffc;
+    width: 165px;
+    height: 40px;
+    margin: 15px 32px;
+    border-radius: 8px;
+    text-align: center;
+}
+.circle{
+    position: absolute;
+    background: #d6cdcf;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 73px 40px;
+    text-align: center;
+}
+
+#square{
+    margin: 2px 49px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+}
+
+#circle{
+    margin: 51px 51px;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.middle{
+    margin: 82px 274px;
+    background-color: #629ffc;
+    width: 2px;
+    height: 266px;
+    float: left;
+    top: -65px;
+    position:absolute;
+}
+
+
+.mid{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 118px -15px;
+    background-color: #629ffc;
+    text-align: center;
+}
+#midCer{
+    margin-top: 7px;
+    color: white;
+}*/
+
+
+
+/*
+=> All Exercices from web zero school challenges from (42 >> 45)
+*/
+
+/*TRANSITION
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+.parent{
+    border: 1px solid black;
+    width: 500px;
+    height: 400px;
+    margin: 50px auto;
+}
+
+.first{
+    background-color: #eee;
+    width: 400px;
+    height: 300px;
+    margin: 24px auto;
+    padding: 20px;
+    text-align: center;
+    transition: margin-top .5s ;
+    transition-timing-function: ease;
+}
+.first:hover{
+ margin-top:30px;
+}
+.second{
+    background-color: #d4c2c2;
+    width: 249px;
+    height: 50px;
+    padding: 15px;
+    margin: 10px auto;
+    transition: margin-top  ;
+    transition-timing-function: linear;
+    transition-delay: .5s;
+}
+.first:hover .second{
+    margin-top:30px;
+}*/
+/*RECTANGLE
+
+
+.parent{
+    width: 600px;
+    margin: 50px auto;
+    border: 1px solid #b9b8b8;
+
+}
+
+ .parent div{
+     width: 200px;
+    background-color: #f1e4e4 !important;
+    color: #000000 ;
+    padding: 30px !important;
+    font-size: 20px !important;
+     text-indent: -9999px !important;
+     margin: 20px auto;
+     width: 500px;
+     border: none !important;
+     text-align:center;   
+     position:relative;
+}
+
+ div::after{
+    content: "Elzero";
+    position: absolute;
+    top: 20px;
+    margin: 74px 275px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Cairo', sans-serif;
+}
+ */
+/*MULTIRECTANGLE
+:root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+
+      
+  div {
+    width: 450px;
+    height: 20px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid black;
+    color: red;
+} 
+
+في البداية استخدمنا المتغيرات و في المرة التالية لم نستخدمهم 
+  } */
+
+
+
+/*
+ => All Exercices from web zero school challenges from (46 >> 53)[Flex Box]
+*/
+
+
+/*First Exercice   
+
+div{
+    width: 100px;
+    height:100px;
+    background:#eee;
+    border-radius:50%;
+    margin:50px auto;
+    font-weight:bold;
+    color:#ff5722;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -6px 0 0 0 #03a9f4 , 6px 0 0 0 #ff5722 ; }
+*/
+/*Second Exercice
+.parent{
+   width: 600px;
+   height: 300px;
+   background-color: #eee;
+   display: flex;
+   flex-flow: wrap ;
+   justify-content: space-between;
+   align-content: space-between;
+   padding:10px;
+}
+
+.parent div{
+ width:calc(95% / 3);
+ background-color: #f44336;
+ color:white;
+ display: flex;
+ justify-content: center;
+ align-items:center;
+ height: 40px;
+  
+}*/
+/*Third Exercice 
+
+.parent{
+   width: 600px;
+   height: 300px;
+   padding: 10px;
+   margin:20px 20px;
+   background-color: #eee;
+   display: flex;
+   flex-flow:row wrap;
+  justify-content:space-between;  
+}
+
+.parent div {
+  background-color: #607d8b;
+  width: calc(95% / 3);
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  align-content: space-between;
+}
+
+ .one{
+ order:6;
+ height: 40px;
+ align-self:flex-end;}  
+
+ .two{order:5;}
+ .three{order:3;  height: 40px;}
+ .four{order:4;}
+ .five{order:4;}
+ .six{ order:1;}
+*/
+
+/*Four Exercice
+
+.parent{
+    width:600px;
+    height: 300px;
+    margin:50px auto;
+    padding:10px;
+    background-color:#eee;
+    display: flex;
+    justify-content: space-between;
+    flex-flow:wrap column;
+}
+
+.parent div{
+    background-color:#009688;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.one{
+
+    height: 85px;
+    width: 25px;
+    align-self:flex-end;
+}
+
+.two{
+    
+    width: 280px;
+    height: 60px;
+    
+}
+
+
+.three{
+
+    height: 85px;
+    width: 25px;
+    align-self:flex-end;
+}*/
+/*Five Exercice
+.parent{
+    width:600px;
+    height: 300px;
+    margin:50px auto;
+    padding:10px;
+    background-color:#eee;
+    display: flex;
+    justify-content: space-between;
+    flex-flow:row wrap;
+}
+.parent div{
+    color:white;
+    width:calc(95% / 6);
+     display:flex; 
+     justify-content:center;
+     align-items:center;
+}
+
+
+.one{
+    order:2 ;
+    height: 50%;
+    align-self:flex-start;
+    background-color: #ff9800;
+}
+
+.two{
+    order:3 ;
+    height: 50%;
+    align-self:flex-end;
+    background-color: #8bc34a;
+}
+
+.three{
+    order:4 ;
+    height: 50%;
+    align-self:flex-start;
+    background-color: #795548;
+}
+
+.four{
+    order:1 ;
+    height: 50%;
+    align-self:flex-end;
+    background-color: #673ab7;
+}*/
+/*Layout display
+
+.page{
+    width:1000px;
+    height: 400px;
+    margin:50px auto;
+    padding:10px;
+    background-color:#eeeeee;;
+    display: flex;
+    justify-content: space-between;
+    flex-flow:column wrap;
+}
+
+ header {
+    display:flex;
+    justify-content:space-between;
+    align-content: space-between;
+    height: 40px;
+    align-items: center;
+    padding-left: 7px;
+
+}
+.header .logo{
+    padding-top: 5px;
+    background-color: #dddddd;
+    height: 35px;
+    width: 85px;
+    text-align: center;
+
+}
+
+.header ul{   
+    background-color: #dddddd;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+    width: 848px;
+    height: 40px;
+    margin-right: 7px;
+ }
+ .header ul li{
+    margin-right:15px;
+ }
+
+  main-area { 
+    display:flex; 
+    height: 305px;
+    justify-content:space-between; 
+}
+
+.content{
+    background-color:#dddddd;
+    width: calc(95% /1.45);
+    padding-left: 10px;
+    margin-left: 7px;
+}
+
+.sidebar{
+    background-color:#dddddd;
+    width: calc(90%/3);
+    padding-left: 10px;
+    margin-right: 7px;
+}
+
+ footer {
+    background-color: #dddddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    margin: 0 7px;
+}
+
+footer .copyright{
+padding-left: 10px;
+}
+
+footer .design{
+padding-right: 10px;
+}*/
+
+/*
+=> All Exercices from web zero school challenges from (54 >> 56)
+*/
+
+/*rectangle gradient color
+div{
+    width: 600px;
+    background-color: #eee;
+    margin: 100px auto;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-left: 7px solid #f54437;
+    border-right: 7px solid #673ab7; 
+     position: relative;
+  
+}
+
+
+
+ .zero::before{
+    content: "";
+    position: absolute;
+    height: 7px;
+    top: 0px;
+    background-color: #9dff00;
+    left: -7px;
+    width: 102%;
+    background-image: linear-gradient(to right,#f54437 20% , #f54437 20%,#f54437 20%,#2196f3 20% ,#2196f3 40%,#4caf50 40% ,#4caf50 60%,#e91e63 60% ,#e91e63 80%,#673ab7 80% );
+}
+
+.zero::after {
+    content: "";
+    position: absolute;
+    height: 7px;
+    top: 70px;
+    background-color: #9dff00;
+    left: -7px;
+    width: 102%;
+    background-image: linear-gradient(to right,#f54437 20% , #f54437 20%,#f54437 20%,#2196f3 20% ,#2196f3 40%,#4caf50 40% ,#4caf50 60%,#e91e63 60% ,#e91e63 80%,#673ab7 80% );
+}
+
+.zero::first-letter{
+    color:#f54437;
+} 
+*/
+/* " gradient linear color second method without border left and right "
+
+border:7px solid ;
+border-image:linear-gradient(to right, #f54437 20%, #f54437 20%,
+#2196f3 20% ,#2196f3 40%,#4caf50 40% ,#4caf50 60%,#e91e63 60% ,#e91e63 80%,#673ab7 80%)1;
+
+.zero::first-letter{
+    color:yellow;
+} */
+
+/*------------------------------------------------------------------------------*/
+
+/*input exercice
+
+.parent{
+    width:300px;
+    height:150px;
+    position:relative;
+}
+
+.in1{
+    width: 281px;
+    height: 30px;
+    margin-left:4px;
+    margin-top:10px;
+    background-color:#eee;
+    
+}
+ *:focus{
+    outline:none;
+} 
+*{
+    border:none;
+}
+#in1::after{
+    content: "";
+    position: absolute;
+    width: 95%;
+    height: 2px;
+    top: 42px;
+    left: 4px;
+    background-color: #f44336;
+}
+
+
+
+.in2{
+    width: 281px;
+    height: 30px;
+    margin-left:4px;
+    margin-top:10px;
+    background-color:#eee;
+}
+
+#in2::after{
+    content: "";
+    position: absolute;
+    width: 95%;
+    height: 2px;
+    top: 83px;
+    left: 4px;
+    background-color: #f44336;
+}
+.in3{
+    width: 281px;
+    height: 30px;
+    margin-left:4px;
+    margin-top:10px;
+    background-color:#eee;
+}
+#in3::after{
+    content: "";
+    position: absolute;
+    width: 95%;
+    height: 2px;
+    top: 124px;
+    left: 4px;
+    background-color: #f44336;
+}*/
+
+/*------------------------------------------------------------------------------*/
+
+
+
+/*
+=> All Exercices from web zero school challenges from (57 >> 64)
+*/
+
+/*first exercice
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: 60px 1fr; 
+}
+ 
+
+
+  .grid div{   
+    display: grid;
+    align-items: center;
+    counter-increment: my-counter;
+    background-color: #607d8b;
+    margin: 7px 8px;
+    font-size:20px;
+    font-weight: bold; 
+  }
+
+    .grid div::after {
+        content: "Element " counter(my-counter); 
+        position: absolute;
+        color: white;
+        margin: 0 76px; 
+} */
+/*second exercice
+  body{
+    height:100%;
+    margin:0;
+} 
+
+  .layout  {
+    height:100vh;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); 
+    grid-auto-rows: 50px auto 50px; 
+    grid-template-areas:"hd hd hd hd hd hd hd hd hd hd"
+                        "sc sc sc sc sc sc sc as as as"
+                        "ft ft ft ft ft ft ft ft ft ft" ;
+}
+.layout div{
+    color:white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+  header {
+    background-color: #03a9f4;
+    grid-area: hd;  
+    color:white; 
+    padding:10px;
+    font-weight: bold;
+}
+header::before{
+    content:"Header"  
+}
+
+    section{
+    background-color:#ff5722;
+    grid-area:sc;
+    padding:10px;
+    font-weight: bold;
+    color:white; 
+} 
+section::before{
+    content:"section";  
+}
+
+   aside{
+    background-color: #607d8b;
+    grid-area:as;
+    padding:10px;
+    font-weight: bold;
+    color:white; 
+}
+aside::before{
+    content:"Aside";  
+}
+  footer{
+    background-color: #009688;
+    grid-area:ft;
+    padding:10px;
+    font-weight: bold;
+    color:white; 
+}  
+footer::before{
+    content:"Footer";  
+}*/
+/*Third Exercice
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display:grid;
+    grid-template-columns: auto repeat(2, 1fr) auto ;
+    grid-template-rows: 1fr auto;
+    gap:15px 20px;
+  }
+.grid div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.grid div{
+    background-color: #403f3f;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+}
+*/
+/*Fourth Exercice
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display:grid;
+    grid-template-columns: repeat(12 , 1fr);
+    grid-template-rows:auto  auto auto auto auto auto;
+    gap: 20px 20px;
+    grid-template-areas:"on on on on on on on on on on on on"
+                        "tw tw tw tw tw tw tw tw th th th th"
+                        "fr fr fr fr fv fv fv fv fv fv fv fv"
+                        "sx sx sx sx fv fv fv fv fv fv fv fv"
+                        "sv sv sv sv fv fv fv fv fv fv fv fv"
+                        "ei ei ei ei ei ei ei ei ei ei ei ei";
+  }
+
+.grid div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-weight:bold;
+}
+  .grid .one {
+      background-color: #2196f3;
+      grid-area: ei;
+      color:white;   
+  }
+  .grid .two{
+      background-color: #2196f3;
+      grid-area:tw;
+      color: white;    
+  }
+  .grid .three{
+      background-color: #2196f3;
+      grid-area:th;
+      color:white;
+  }
+  .grid .four{
+    background-color: #2196f3;
+    grid-area:fr;
+    color:white; 
+}
+.grid .five{
+    background-color: #2196f3;
+    grid-area:fv;
+    color:white;
+}
+
+.grid .six{
+    background-color: #2196f3;
+    grid-area:sx;
+    color:white;  
+}
+
+.grid .seven{
+    background-color: #2196f3;
+    grid-area:sv;
+    color:white;   
+}
+
+.grid .eight{
+    background-color: #2196f3;
+    grid-area:on;
+    color:white;  
+}*/
+/*fifth Exercice
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows:30px 30px;
+    gap:20px;
+    align-content: space-between;
+  }
+  .grid div{
+      display:grid;
+      justify-content: center;
+      align-items:center;
+  }
+ .grid div{
+     background-color:#e91e63;
+     color:white;
+     font-weight: bold;
+ }*/
+/*sixth
+#pageParent{
+    background-color: #eee;
+    border: 3px solid #b3b3b3;
+    padding:50px;
+    display: grid;
+    grid-template-columns:repeat(12, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: 10px 10px;
+    grid-template-areas: "os os os os os os ah ah ah sd sd sd"
+                         "mi mi mi mm mm mm mm mm mm sd sd sd"
+                         "mi mi mi ee ee ee ee ee ee sd sd sd"
+                         "ms ms ms is is is gs gs gs es es es";      
+}
+.OsamaMohamed{
+    grid-area:os;
+    color:black;
+    background-color: white;
+    padding:20px;
+    border-bottom: 5px solid red;
+    position: relative; 
+}
+
+.AhmedSayed{
+    grid-area:ah;
+    color:black;
+    background-color: white;
+    padding:20px;
+    border-bottom: 5px solid red;
+    position: relative;
+} 
+.ChadyNabil{
+    grid-area:sd;
+    color:white;
+    background-color: black;
+    padding:20px;
+    border-bottom: 5px solid red;
+    position: relative;
+}
+.MohamedIbrahim{
+    grid-area:mi;
+    color:black;
+    background-color: white;
+    padding:20px;
+    border-bottom: 5px solid red;
+    position: relative;
+}
+
+.MahmoudMohamed{
+    grid-area:mm;
+    color:white;
+    background-color: black;
+    padding:20px;
+    border-bottom: 5px solid red;
+    position: relative;
+}
+
+.EzzEldin{
+    grid-area:ee;
+    color:black;
+    background-color: white;
+    padding:20px;
+    border-bottom: 5px solid red;
+    position:relative;
+}
+
+.MohamedSayed{
+grid-area:ms;
+color:black;
+background-color: white;
+padding:20px;
+border-bottom: 5px solid red;
+position: relative;
+}
+
+.IbrahimSayed{
+grid-area:is;
+color:white;
+background-color: black;
+padding:20px;
+border-bottom: 5px solid red;
+position:relative
+}
+.GamalSayed{
+grid-area:gs;
+color:black;
+background-color: white;
+padding:20px;
+border-bottom: 5px solid red;
+position:relative
+}
+
+.EmanSayed{
+grid-area:es;
+color:black;
+background-color: white;
+padding:20px;
+border-bottom: 5px solid red;
+position: relative;
+}
+
+
+div::after {
+    content: '"';
+    font-size: 65px;
+    font-family: sans-serif;
+    position: absolute;
+    right: 10px;
+    bottom: -30px;
+    color: #b3b3b3;
+    transform: rotate(12deg);
+}
+
+h4{
+    color:#b3b3b3;   
+
+}
+h3{
+    line-height:0;
+}
+
+#mainParagraph{
+    font-weight:bold;
+    
+   }*/
+
+
+/*All Exercices from web zero school challenges from (65 >> 67) [2D]*/
+
+/*First Exercice
+
+div{
+    width:300px;
+    height: 200px;
+    background-color:#eee;
+    color:#03a9f4;
+    font-weight:bold;
+    font-size:30px;
+    border:1.5px solid #dad8d8;
+    padding:80px;
+    margin:50px auto;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    position:relative;
+}
+
+  div::before {
+    content: "";
+    position: absolute;
+    background-color: #e91e63;
+    width: 300px;
+    height: 200px;
+    z-index: -1;
+    transform: rotate(8deg);}  
+
+  div::after {
+    content: "";
+    position: absolute;
+    background-color: #03a9f4;
+    width: 300px;
+    height: 200px;
+    z-index: -1;
+    transform: rotate(-8deg); }  */
+
+/*Second Exercice
+div{
+    width:200px;
+    height:200px;
+    background-color:#eee;
+    border-radius:50%;
+    font-weight:bold;
+    font-size:30px;
+    margin:50px auto;
+    padding:80px 0;
+    text-align:center;
+    border:1px solid #adacac;
+    position:relative;
+    
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 10px solid;
+    border-color: #e91e63 #e91e63 #e91e63 transparent;
+    margin: -91px -68px;
+    border-radius: 50%;
+   }  
+
+   div::after {
+    content: "";
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    border: 10px solid;
+    border-color: transparent #03a9f4 #03a9f4 #03a9f4;
+    margin: -101px -161px;
+    border-radius: 50%;
+    transform: rotate(90deg);
+}
+*/
+
+/*Third Exercice
+div{
+    width:200px;
+    height:200px;
+    background-color:#eee;
+    border-radius:50%;
+    font-weight:bold;
+    font-size:30px;
+    margin:50px auto;
+    padding:80px 0;
+    text-align:center;
+    border:1px solid #adacac; 
+    position:relative;   
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 10px solid;
+    border-color: #e91e63 #e91e63 #e91e63 transparent;
+    margin: -91px -68px;
+    border-radius: 50%;
+    -webkit-transition: transform 0.5s linear;
+    transition: transform 0.5s linear;  
+   }  
+  
+     div:hover::before{ 
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+     }
+
+    div::after {
+    content: "";
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    border: 10px solid;
+    border-color: transparent #03a9f4 #03a9f4 #03a9f4;
+    margin: -101px -161px;
+    border-radius: 50%;
+    transform: rotate(90deg); 
+    -webkit-transition: transform 0.5s linear;
+    transition: transform 0.5s linear;  
+    transition-delay:0.5s;
+}
+div:hover::after{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}*/
+
+/*All Exercices from web zero school challenges from (68 >> 73) [3D]*/
+/*First Exerice
+:root{
+    --main-color: #ff5722;
+    --text-color:white;
+}
+h1{
+    width: 150px;
+    color: var(--text-color);
+    margin: 100px auto;
+    padding: 30px 30px ;
+    position:relative;
+   
+}
+
+h1::before{
+    content: "";
+    position: absolute;
+    background: var(--main-color);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin: -30px -30px;
+    transform: skew(-10deg, -10deg);
+} 
+h1::after{
+    content: "";
+    position: absolute;
+    background: var(--main-color);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform: skew(10deg,8deg);
+    margin: -30px -120px;
+
+}*/
+
+/*Second Exercice
+:root{
+    --mainColor:#009688;
+    --use-color:white;
+}
+
+h1{
+    width: 150px;
+    height: 75px;
+    margin:50px auto;
+    padding: 18px 54px;
+    background-color: var(--mainColor);
+    color:var(--use-color);
+    position:relative;
+
+    
+}
+
+h1::before{
+    content: "";
+    position: absolute;
+    color: var(--use-color);
+    width: 130px;
+    height: 76px;
+    margin: -19px -75px;
+    background-color: var(--mainColor);
+    transform: skew(30deg, 0deg);
+    z-index: -1;
+
+}
+
+h1::after{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 75px;
+    margin: -63px -106px;
+    background-color: var(--mainColor);
+    transform: skew(30deg, 0deg);
+}*/
+
+/*Third Exercice
+.class {
+  matrix(3, 0.2679, 0, 3, 20, 100);
+  matrix(scaleX() , skewX() , skewY() ,scaleY() ,translateX() , translateY() ) 
+  just comment on transform properties 
+}
+*/
+
+/*fourth Exercice
+div{
+    width:200px;
+    height: 200px;
+    background-color: black;
+    margin:200px auto;
+    transform: rotate(45deg);
+    position :relative;
+}
+
+
+
+
+ div::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 77px;
+    top: 35%;
+    left: 35px;
+    border-left: 145px solid #607d8b;
+    border-right: 145px solid #607c8a;
+    border-bottom: 144px solid transparent;
+    transform: rotate(135deg);
+}
+
+
+
+ div::after{
+    content: "Elzero";
+    position: absolute;
+    color: white;
+    border-bottom: 4px solid black;
+    font-weight: bold;
+    top: 115%;
+    width: 281px;
+    left: 51%;
+    transform: rotate(-45deg);
+    padding: 4px;
+}  */
+
+/*Fiveth Exercice
+div{
+    width:200px;
+    height: 200px;
+    margin: 100px auto;
+    position:relative;
+    background-color: transparent;
+    transition: transform 3s;
+    transform-style: preserve-3d;
+
+}   
+
+
+div::before{
+    content:"Back";
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color: #1692fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size:30px;
+    color:white;
+   
+                      
+}
+
+
+div::after{
+    content:"Front";
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color: #fa3664;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size:30px;
+    color:white;
+    backface-visibility: hidden;
+    transform: rotatex(180deg); 
+    ---------------------------
+    transform: rotatey(180deg);
+  
+}
+div:hover{
+     transform: rotatex(180deg); 
+     ---------------------------
+    transform: rotatey(180deg);
+}
+*/
+
+/*All Exercices from web zero school challenges from (74 >> 77) [Animation]*/
+/*First Exercice
+div{
+    width:50px;
+    height:50px;
+    margin:50px auto;
+    border: 4px solid ;
+    border-color:#e13c78 #e13c78 #e13c78 transparent ;
+    border-radius:50%;
+    position:relative;
+    animation-name: spin;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+}
+div:hover{
+    animation-play-state: paused;
+}
+div::before{
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 4px solid;
+    border-color: #2499ea transparent #2499ea #2499ea;
+    top: -25%;
+    left: -24%;
+    
+}
+div::after{
+    content: "";
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    border: 4px solid;
+    border-color: #f5a200 #f5a200 #f5a200 transparent;
+    top: -39%;
+    left: -40%;
+
+}
+@keyframes spin{
+  0%{
+      transform:rotate(0deg);
+  }
+  100%{
+      transform:rotate(360deg);
+  }
+}*/
+
+/* Second Exercice 
+ div{
+    width: 50px;
+    height: 50px;
+    margin: 50px auto;
+    border: 4px solid;
+    border-color: #2499ea #2499ea  transparent #2499ea ;
+    border-radius: 50%;
+    position: relative;
+}
+
+div:hover{
+    animation:spin 1s linear infinite, waiting;  
+}
+
+
+div::before{
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 4px solid;
+    border-color: #f5a200 #f5a200 transparent #f5a200 ;
+    top: -25%;
+    left: -24%; 
+}
+div:hover::before{
+    animation:spin 1.2s linear infinite,waiting ;  
+}
+
+div::after{
+    content: "";
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    border: 4px solid;
+    border-color:  #000000 #000000 transparent #000000 ;
+    top: -39%;
+    left: -40%;  
+}
+div:hover::after{
+    animation:spin 1.5s linear infinite, waiting;
+}
+
+@keyframes spin{
+ 
+    100%{
+        transform:rotate(360deg);
+       
+    }
+ 
+}
+@keyframes waiting  {
+    100%{
+        animation-delay: 4s;
+    }
+}*/
+
+
+/*Third Exercice
+span{
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    margin: 50px auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    position:relative;
+}
+
+span::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 4px solid;
+    border-color: black black black transparent;
+    animation-name: rotate;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;   
+    animation-duration: 1s;  
+}
+
+@keyframes rotate{
+ from{
+     transform: rotate(360deg);
+ }
+ to{
+     transform:rotate(0deg);
+ }
+}*/
+
+
+/*Four Exercice
+
+ .parent{
+    width:410px;
+    height: 300px;
+    margin: 20px auto;
+    padding:10px 10px;
+    background-color: #fefefc;
+    border:1px solid #cccccc;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column-reverse  wrap;
+    position: relative;
+   
+}
+.parent div{
+    display:flex;
+    justify-content: center;
+    background-color: #323234;
+    align-items: center;   
+}
+
+.one{
+    width: 45px;
+    height: 100%;
+    padding: 20px 20px;
+    position: relative;
+}
+
+
+.two{
+    align-self: flex-start;
+    width: 145px;
+    height: 16%;
+    margin-right: -100px;
+    position: relative;
+}
+
+.three{
+    align-self: center;
+    width: 145px;
+    height: 16%;
+    margin-right: 142px;
+    position: relative;  
+}
+
+.four{
+    align-self: flex-end;
+    width: 145px;
+    height: 16%;
+    margin-right: 142px;
+    position: relative;
+}
+.four::before{
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 5px;
+   animation-name:Eelement;
+   animation-timing-function: linear;
+   animation-iteration-count: 1;
+   background-color: #fea604;
+   animation-duration:2s;
+   animation-delay: 2s;
+
+}
+.five{
+    position: relative;
+    margin-left: -120px;
+    width: 45px;
+    height: 100%;
+    padding: 20px 20px;
+}
+
+.six{
+    position:relative;
+    width: 145px;
+    height: 16%;
+    margin-left: -89px;
+ 
+}
+.six::after{
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right:5px; 
+    animation-name:Lelement;
+    animation-duration:2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count:1;
+   
+    
+}
+
+
+@keyframes Lelement {
+    
+    0%{
+        right: 5px;
+        left:110px;
+        top:8px; 
+        background-color: #fea604;
+     }
+
+     25%{
+        left:-25px;
+        top:8px; 
+        right:-5px;
+        background-color: #fea604;
+     }
+ 
+    55%{
+        left: -23px;
+        top:-230px;
+        opacity: .6;
+        background-color: #fea604;
+    }
+
+     75%{
+       left:-23px;
+       top:-230px;
+       opacity: 0;    
+       background-color: #fea604;
+    }
+
+   100%{
+     right: 5px;
+        left:110px;
+        top:8px; 
+        opacity: 0;
+       
+    }
+  
+}  
+
+
+   @keyframes Eelement {
+    0%{
+        bottom: 8px;
+        right:0px;
+        
+
+    }
+
+    12.5%{
+       right:150px;
+       bottom: 8px;
+      
+    } 
+
+    20%{
+        right:150px;
+        bottom: -110px;
+        
+
+      } 
+
+    35%{
+     right:5px;
+     bottom:-110px;
+   
+
+     }
+     45%{
+        right:150px;
+        bottom:-110px;
+    
+
+     }
+     60%{
+         right:150px;
+         bottom:-230px;
+         
+
+     }
+
+     70%{
+         right:5px;
+         bottom:-230px;
+       
+
+     }
+     80%{
+         right:150px;
+         bottom:-230px;
+        
+
+
+     }
+     90%{
+        right:150px;
+        bottom:8px;
+      
+     }
+     100%{
+        bottom: 8px;
+        right:0px;
+       
+ 
+     }
+
+} */
+
+
+
+
+/*All Exercices from web zero school challenges from (78 >> 82) [Selector]*/
+
+/*Exercice one*/
+
+
+
+   /* .main .red  {
+font-weight: bold;
+color:red;
+font-size:20px;
+}  */
